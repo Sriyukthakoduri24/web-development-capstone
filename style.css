@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:linear-gradient(135deg,#0f172a,#1e293b);
+color:white;
+}
+
+/* HEADER */
+header{
+background:#111827;
+padding:20px;
+text-align:center;
+position:sticky;
+top:0;
+}
+
+nav a{
+color:white;
+margin:10px;
+text-decoration:none;
+}
+
+/* SECTIONS */
+section{
+padding:40px;
+margin:20px;
+background:#1e293b;
+border-radius:10px;
+}
+
+/* INPUT */
+input,button{
+padding:10px;
+margin:5px;
+border:none;
+border-radius:5px;
+}
+
+button{
+background:#38bdf8;
+cursor:pointer;
+}
+
+/* TASK LIST */
+ul li{
+background:white;
+color:black;
+margin:5px;
+padding:10px;
+display:flex;
+justify-content:space-between;
+}
+
+/* WEATHER */
+#weatherCard{
+margin-top:10px;
+padding:15px;
+background:rgba(255,255,255,0.1);
+border-radius:10px;
+}

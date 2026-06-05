@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Sriyuktha Capstone Project</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>Sriyuktha Portfolio</h1>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#todo">Task Manager</a>
+<a href="#weather">Weather</a>
+</nav>
+</header>
+
+<!-- HOME -->
+<section id="home">
+<h2>Welcome</h2>
+<p>IT Student | Web Developer | Learner</p>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+<h2>About Me</h2>
+<p>I am passionate about web development and building real-world projects.</p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+<h2>Skills</h2>
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+<li>GitHub</li>
+</ul>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+<h2>Projects</h2>
+
+<p>Portfolio Website</p>
+<p>Task Manager App</p>
+<p>Weather Dashboard</p>
+
+</section>
+
+<!-- TASK MANAGER -->
+<section id="todo">
+<h2>Task Manager</h2>
+
+<input type="text" id="taskInput" placeholder="Enter Task">
+<button onclick="addTask()">Add</button>
+
+<br><br>
+
+<input type="text" id="searchInput" placeholder="Search Tasks" onkeyup="filterTasks()">
+
+<ul id="taskList"></ul>
+</section>
+
+<!-- WEATHER -->
+<section id="weather">
+<h2>Weather Dashboard</h2>
+
+<input type="text" id="cityInput" placeholder="Enter City">
+<button onclick="getWeather()">Search</button>
+
+<div id="weatherCard"></div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
